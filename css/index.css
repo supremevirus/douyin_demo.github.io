@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+.right{
+  float: right;
+}
+.link{
+  list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+  
+
+
+}
+p>a{
+  color: #fff;
+  text-decoration: none;
+}
+.nav-warpper>a {
+    padding: 0 5px;
+    color: #fff;
+    text-decoration: none;
+  }
+.linkli>a {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.7);
+    text-decoration: none;
+
+}
+.linkli{
+  display:inline;
+  margin-left: 25px;
+}
+
+
+.header-left{
+  float: left;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.page-header{
+      height: 100px;
+    line-height: 100px;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+}
+.header-right{
+  float: right;
+  margin-right: 150px;
+  
+}
+.page-container{
+  position: fixed;
+  height: 100%;
+}
+.page-mainer{
+height:100%;
+}
+.mainer-middle{
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-top: 50px;
+    right: 150px;
+}
+.slogan {
+    float: right;
+    width: 450px;
+    margin-bottom: 50px;
+}
+.slogan img{
+  width:450px;
+
+}
+.icon-QRcode {
+    float: right;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/QRcode.png');
+  }
+.primary .icon-QRcode img{
+    width: 223px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(0.23);
+    transform-origin: top right;
+    opacity: 0;
+    transition: .3s all;
+  }
+.btn-primary {
+    display: inline-block;
+    
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 130px;
+    -webkit-transition: .15s opacity;
+    transition: .15s opacity;
+    -webkit-transition-delay: .15s;
+    transition-delay: .15s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.btn-list{
+    text-align: center;
+    margin-top:13px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+    color: #000;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.7);
+    text-decoration: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.btn-primary img{
+  width: 130px;
+  box-shadow: 1px 1px 7px 2px rgba(0,0,0,.54);
+}
+
+
+.page-footer {
+    font-size: 14px;
+    width: 100%;
+    background: transparent;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+  }
+.nav-warpper {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.7);
+    margin-bottom: 16px;
+  }
+
+
+.page-video-bg{
+  height: auto;
+}
+
+.page-video-bg video {
+  display: block;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+.page-content{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
